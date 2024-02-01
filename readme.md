@@ -2,6 +2,17 @@
 
 Welcome to the README for the code related to the Catnotfoundnear's blog article "Benchmarking all JSON libraries on all Python versions". This code is designed to accompany the blog article, which can be found at [Catnotfoundnear's Blog](https://catnotfoundnear.github.io/).
 
+**This benchmark tests out the following JSON libraries:**
+orjson
+numpy
+nujson
+pysimdjson
+yapic.json
+simplejson
+ujson
+python-rapidjson
+cysimdjson
+
 **Testing System:**
 The code was tested on a Windows 10 system with an Intel i5-8365U processor and 8GB of RAM. It's important to note that the availability of libraries may vary across different Python versions due to compatibility issues. As a result, subsequent Python versions may have fewer libraries available for testing. This is often due to certain libraries not supporting newer Python versions or encountering build issues on the testing system.
 
